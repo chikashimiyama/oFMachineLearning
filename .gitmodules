@@ -1,0 +1,6 @@
+[submodule "submodules/ofxGVF"]
+	path = submodules/ofxGVF
+	url = https://github.com/bcaramiaux/ofxGVF
+[submodule "submodules/grt"]
+	path = submodules/grt
+	url = https://github.com/nickgillian/grt.git
