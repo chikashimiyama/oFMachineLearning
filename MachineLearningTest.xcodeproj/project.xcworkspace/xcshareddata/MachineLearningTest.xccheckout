@@ -10,6 +10,8 @@
 	<string>MachineLearningTest</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>E64E0C7F-2DEA-4994-BDDB-A706C079A103</key>
+		<string>https://github.com/nickgillian/grt.git</string>
 		<key>EB103372-35EC-4755-8201-448B5822672E</key>
 		<string>https://github.com/chikashimiyama/oFMachineLearning.git</string>
 	</dict>
@@ -17,6 +19,8 @@
 	<string>MachineLearningTest.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>E64E0C7F-2DEA-4994-BDDB-A706C079A103</key>
+		<string>../../submodules/grt</string>
 		<key>EB103372-35EC-4755-8201-448B5822672E</key>
 		<string>../..</string>
 	</dict>
@@ -28,6 +32,14 @@
 	<string>EB103372-35EC-4755-8201-448B5822672E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E64E0C7F-2DEA-4994-BDDB-A706C079A103</string>
+			<key>IDESourceControlWCCName</key>
+			<string>grt</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

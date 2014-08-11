@@ -1,10 +1,28 @@
 #pragma once
-
+#include <GRT.h>
 #include "ofMain.h"
+
+#define CLUSTER 5
 
 class ofApp : public ofBaseApp{
 
-	public:
+    private:
+        GRT::MatrixDouble inputMD;
+        GRT::GestureRecognitionPipeline pl;
+        GRT::KMeans kmeans;
+        ofEasyCam cam;
+        GRT::Matrix< double > clusters;
+        ofSpherePrimitive sp[5];
+        ofColor colors[5];
+    
+        bool centerFlag;
+        bool linesFlag;
+        bool coloredPointFlag;
+    
+        int count;
+        void reset();
+    public:
+    ofApp(int row = 1000, int column= 3): inputMD(row, column){};
 		void setup();
 		void update();
 		void draw();
